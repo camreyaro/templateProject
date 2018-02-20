@@ -31,7 +31,6 @@
   },
   "scripts": {
     "start": "node index.js",
-    "postinstall": "bower install",
     "test": "grunt test"
   },
   "keywords": [
