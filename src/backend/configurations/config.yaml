@@ -1,0 +1,27 @@
+production:
+  server: 
+    port: 5000
+
+  log:
+    level: info
+    file: './logs/pro-logs.log'
+    maxDays: 365
+
+development:
+  server: 
+    port: 5000
+    
+  log:
+    level: debug
+    file: './logs/dev-logs.log'
+    maxDays: 365
+
+testing:
+  server:
+    port: 5000
+
+  log:
+    level: debug
+    file: './logs/test-logs.log'
+    maxDays: 365
+  
