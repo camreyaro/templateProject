@@ -1,7 +1,7 @@
 {
   "name": "project-template-nodejs",
   "buildOn": "2017-03-30",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Project Template for Node JS developments",
   "homepage": "https://github.com/isa-group/project-template-nodejs",
   "main": "index.js",
