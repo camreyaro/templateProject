@@ -105,9 +105,10 @@ module.exports = function (grunt) {
         release: {
             options: {
                 changelog: true, //NOT CHANGE
-                changelogFromGithub: true, //NOT CHANGE
+                //changelogFromGithub: true, //NOT CHANGE
+                changelogText: "### <%= version %> - <%= grunt.template.today('yyyy-mm-dd') %>\n",
                 githubReleaseBody: 'See [CHANGELOG.md](./CHANGELOG.md) for details.', //NOT CHANGE
-                npm: true, //CHANGE TO TRUE IF YOUR PROJECT IS A NPM MODULE 
+                npm: false, //CHANGE TO TRUE IF YOUR PROJECT IS A NPM MODULE 
                 //npmtag: true, //default: no tag
                 beforeBump: [], // IS NOT READY YET
                 afterBump: [], // IS NOT READY YET
@@ -115,7 +116,7 @@ module.exports = function (grunt) {
                 afterRelease: [], // IS NOT READY YET
                 updateVars: ['pkg'], //NOT CHANGE
                 github: {
-                    repo: "Albrodpul/groups-service",
+                    repo: "camreyaro/templateProject",
                     accessTokenVar: "GITHUB_ACCESS_TOKEN", //SET ENVIRONMENT VARIABLE WITH THIS NAME
                     usernameVar: "GITHUB_USERNAME" //SET ENVIRONMENT VARIABLE WITH THIS NAME
                 }

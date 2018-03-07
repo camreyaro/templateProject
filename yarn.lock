@@ -3031,6 +3031,15 @@ grunt-release-github@^1.0.4:
     superagent "^1.8.3"
     winston "^2.3.0"
 
+grunt-release@^0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/grunt-release/-/grunt-release-0.14.0.tgz#b8d600889561966d60ffdcc06067eb015597f78d"
+  dependencies:
+    q "^1.4.1"
+    semver "^5.1.0"
+    shelljs "^0.7.0"
+    superagent "^1.8.3"
+
 grunt@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/grunt/-/grunt-1.0.2.tgz#4e6a5e695b70472fd5304f5fa9e34236836a73bc"
